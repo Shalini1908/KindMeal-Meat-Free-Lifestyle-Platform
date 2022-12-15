@@ -2,21 +2,31 @@ import { Box,Image, Card , CardBody , CardFooter , Stack, Heading , Text } from 
 import React from "react";
 import banner_whykindmeal from "../images/banner_whykindmeal.png";
 import logopetfinder from "../images/logopetfinder.png";
-import mediafeature from "../images/mediafeature.png"
+import mediafeature from "../images/mediafeature.png";
+import CarouselFadeExample from "./Carousel1";
+
 
 function Home() {
 return (
   <Card bg={"#e9e9e9"} boxShadow="base">
 <Box>
+  <Box ml={70} display={"flex"}>
+    <Box><CarouselFadeExample/></Box>
+</Box>
+
+<Card bg={"white"}  h={130}
+width={"75%"} ml={"168px"}></Card>
 
 <Card 
 bg={"white"} h={330}
 width={"90%"}
 ml={"70px"}
-mt={500}
+mt={35}
 >
 
-<Box display={"flex"} paddingTop={16}>
+  <Heading mr={"80%"} color={"#8d8d8d"} mt={2} fontSize={22} fontWeight={400}>Latest News & Videos</Heading>
+
+<Box display={"flex"} paddingTop={5}>
   <Image
     objectFit='cover'
     width={"100%"}
@@ -77,19 +87,7 @@ mt={500}
       
      </Box>
 
-     
-
-     
-  <Stack>
-    <CardBody>
-    
-    </CardBody>
-
-    <CardFooter>
-    
-    </CardFooter>
-  </Stack>
-</Card>
+    </Card>
 
 <Card 
 bg={"white"} h={340}
