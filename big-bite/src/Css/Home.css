@@ -1,0 +1,10 @@
+
+#bhoot {
+    display: flex;
+    
+}
+#bhoot li{
+    list-style: none;
+    margin: 20px;
+
+}

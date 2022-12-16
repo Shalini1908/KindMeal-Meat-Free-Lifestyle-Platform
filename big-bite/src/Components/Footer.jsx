@@ -14,7 +14,7 @@ export default function LargeWithLogoCentered() {
     return (
         <Box 
             bg={useColorModeValue('#2bb673', '#2bb673')}
-            color={useColorModeValue('white', 'white')} h={560} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"}>
+            color={useColorModeValue('white', 'white')} h={600} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} mt="vh">
             <Container maxW={'6xl'} pt={8} fontSize={14} textAlign={"left"} >
                 <SimpleGrid columns={{ base: 1, sm: 2, md: 3, lg: 6 }}  spacing='40px'>
                     <Stack align={'flex-start'}>
