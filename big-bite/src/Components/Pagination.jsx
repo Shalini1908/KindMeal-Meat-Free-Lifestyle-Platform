@@ -6,8 +6,8 @@ function createArrayOfSize(n) {
 
 function Pagination({currentPage,handlePageChange}) {
 
-    let pages =createArrayOfSize(5).map((a, i)=>
-    (<Button colorScheme={"red"} ml="50px" mt='40px' disabled={currentPage===(i+1)}
+    let pages =createArrayOfSize(4).map((a, i)=>
+    (<Button bg={"#17824f"} _hover={"#17824f"} ml="15px" mt='20px' color={"white"} width={"15px"} h={"35px"}disabled={currentPage===(i+1)}
      onClick={()=>handlePageChange(i+1)} >{i+1}</Button>  ));
     return <Box>{pages}</Box>;
 }
