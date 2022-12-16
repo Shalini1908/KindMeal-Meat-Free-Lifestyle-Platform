@@ -155,7 +155,7 @@ Yummylicious Moments</Heading>
     alt='Caffe Latte'
   />
 <Text  color={"#8d8d8d"}>Pine 3 Vegetarian Restaurent</Text>
-<Text fontSize={13 }  color={"#8d8d8d"} mt={"-11px"}>VyVian</Text>
+<Text fontSize={13 }  color={"#8d8d8d"} mt={"-6px"}>VyVian</Text>
 </Container>
 <Container>
 <Image

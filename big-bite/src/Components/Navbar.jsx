@@ -38,11 +38,16 @@ export default function Nav() {
         </Stack>
     </Box>
    <Box boxSize='200px'>
-  <Image src={logo} width={530} h={424} alt="logo" objectFit='cover' mt={"-209px"} />
+  <Image src={logo} width={530} h={382} alt="logo" objectFit='cover' mt={"-190px"} />
+
 </Box>
 
+<Box >
+
+
 <Text ml={550}  fontSize={15}>login</Text>
-<Stack spacing={3} direction='row'  ml={1000} mt={"-25px"}>
+<Stack spacing={3} direction='row'  ml={1000} mt={"-55px"}>
+
       <Button colorScheme='facebook' size='xs' width={90} fontSize={13} >Facebook</Button>
 
       <Button bg='RGBA(0, 0, 0, 0.80)' color="white" size='xs' width={90} fontSize={13}>Email</Button>
@@ -50,8 +55,8 @@ export default function Nav() {
      
       <BasicUsage/>
       </Stack>
-  
-      <Box bg={useColorModeValue("#2bb673", "#2bb673")} px={4} mt={30} >
+      </Box>
+      <Box bg={useColorModeValue("#2bb673", "#2bb673")} px={4} mt={"26px"} >
        
         <Flex h={12} alignItems={'center'} justifyContent={"space-around"}>
          <RouterLink to={"./"}>
