@@ -1,31 +1,8 @@
-// import React from "react";
-// import Navbar from "../Components/Navbar";
-// import Footer from "../Components/Footer";
-
-// function Recipes(){
-
-// return (
-
-// <>
-//     <div>
-//         <Navbar/>
-//         <Footer/>
-//     </div>
-//     </>
-
-
-// )
-
-
-// }
-
-// export default Recipes;
-
 import { Box, Container, Flex, Grid, GridItem, Image, Text }  from '@chakra-ui/react'
 import React, { useState } from 'react'
 import { useEffect } from 'react'
 import { Link, useSearchParams } from 'react-router-dom';
-import Navbar from '../Components/Navbar'
+
 import Pagination from '../Components/Pagination';
 
 function Recipes() {
@@ -60,7 +37,7 @@ function Recipes() {
   }, [page]);
   return (
     <Box>
-        <Navbar/>
+  
         <Container mt="40px" maxW={{base:'full',md:'container.md'}}
         p={{base : 2 ,lg:0}}
         >
