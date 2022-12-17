@@ -12,41 +12,41 @@ import { Box } from "@chakra-ui/react";
 
 function CarouselFadeExample() {
   return (
-    <Box ml={"100px"}>
-      <Carousel fade>
+    <Box width={"100%"} ml={"-85px"}>
+      <Carousel fade >
 
         <Carousel.Item >
-          <img src={food1} alt="food1" />
+          <img src={food1} width={"100%"}  alt="food1" />
 
         </Carousel.Item>
 
         <Carousel.Item >
-          <img src={food2} alt="food2" />
+          <img src={food2} width={"100%"}  alt="food2" />
 
         </Carousel.Item>
 
         <Carousel.Item>
-          <img src={food3} alt="food3" />
+          <img src={food3} width={"100%"}  alt="food3" />
 
         </Carousel.Item>
 
         <Carousel.Item>
-          <img src={food4} alt="food4"/>
+          <img src={food4} width={"100%"}  alt="food4"/>
 
         </Carousel.Item>
 
         <Carousel.Item>
-          <img src={food5} alt="food5"/>
+          <img src={food5}width={"100%"}  alt="food5"/>
 
         </Carousel.Item>
 
         <Carousel.Item>
-          <img src={food6} alt="food6" />
+          <img src={food6} width={"100%"}  alt="food6" />
 
         </Carousel.Item>
 
         <Carousel.Item>
-          <img src={food7} alt="food7"/>
+          <img src={food7} width={"100%"}  alt="food7"/>
         </Carousel.Item>
       </Carousel>
     </Box>

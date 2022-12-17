@@ -13,15 +13,17 @@ import "../Css/Home.css";
 // import {FaCircle} from "react-icons/fa";
 
 function Home() {
-return (
+return <div id="main">
+  
   <Card bg={"#e9e9e9"} boxShadow="base">
-<Box>
-  <Box ml={70} display={"flex"}>
-    <Box><CarouselFadeExample/></Box>
+<Box >
+  <Box  ml="180px" display={"flex"}>
+
+    <CarouselFadeExample/>
 </Box>
 
 <Card bg={"white"}  h={130}
-width={"75%"} ml={"168px"}></Card>
+width={"87%"} ml={"90px"}></Card>
 
 <Card 
 bg={"white"} h={330}
@@ -473,7 +475,7 @@ Enjoy a great meat-free dining experience. Easily save animal lives, health, env
      </Box>
      </Card>
      
-     )
+     </div>
 }
 
 export default Home

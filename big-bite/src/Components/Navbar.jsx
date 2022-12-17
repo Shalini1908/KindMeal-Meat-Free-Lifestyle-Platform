@@ -30,7 +30,7 @@ export default function Nav() {
 
   return (
     <>
-    <Box display={"flex"} ml={650} mt={10}>
+    <Box display={"flex"} ml={570} mt={6}>
     <Stack spacing={3} direction='row'>
         <Image src={blog} width={"40px"} />
         <Image src={facebook} width={"40px"}/>
@@ -45,8 +45,8 @@ export default function Nav() {
 <Box >
 
 
-<Text ml={550}  fontSize={15}>login</Text>
-<Stack spacing={3} direction='row'  ml={1000} mt={"-55px"}>
+
+<Stack spacing={3} direction='row'  ml={1000} mt={"-35px"}>
 
       <Button colorScheme='facebook' size='xs' width={90} fontSize={13} >Facebook</Button>
 
@@ -55,8 +55,9 @@ export default function Nav() {
      
       <BasicUsage/>
       </Stack>
+      <Text ml={550}  fontSize={16} mt={"-22px"}>login</Text>
       </Box>
-      <Box bg={useColorModeValue("#2bb673", "#2bb673")} px={4} mt={"26px"} >
+      <Box bg={useColorModeValue("#2bb673", "#2bb673")} px={4} mt={"46px"} >
        
         <Flex h={12} alignItems={'center'} justifyContent={"space-around"}>
          <RouterLink to={"./"}>
@@ -77,9 +78,9 @@ export default function Nav() {
           <RouterLink to="../Articles">
           <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={15} lineHeight={40} cursor={"pointer"}>ARTICLES</Box>
           </RouterLink >
-          <RouterLink to="../MobileApp">
+          {/* <RouterLink to="../MobileApp"> */}
           <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={15} lineHeight={40} cursor={"pointer"}>MOBILE APP</Box>
-          </RouterLink>
+          {/* </RouterLink> */}
           <RouterLink to="../Help">
           <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={15} lineHeight={40} cursor={"pointer"}>HELP</Box>
           </RouterLink>
