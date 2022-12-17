@@ -24,6 +24,8 @@ import {
   import logo  from "../logo/mylogo.png";
  import join_normal from "../images/join_normal.png";
  import join_shop from "../images/join_shop.png";
+ import {Link as RouterLink} from "react-router-dom"
+
 
 export default function BasicUsage() {
     const { isOpen, onOpen, onClose } = useDisclosure()
@@ -101,7 +103,10 @@ export default function BasicUsage() {
             <ModalFooter>
                
               {/* <Button colorScheme='blue' mr={3} onClick={onClose}> */}
-              <Text mr={157} color={"#746d66"}>Member Login</Text>
+           <RouterLink to="../Login">
+            <Text mr={210} color={"#746d66"} onClick={onClose}>Member Login</Text>
+         
+              </RouterLink>
                 {/* Close */}
               {/* </Button> */}
               {/* <Button variant='ghost'>Secondary Action</Button> */}
