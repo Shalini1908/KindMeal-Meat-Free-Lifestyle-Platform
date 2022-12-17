@@ -8,3 +8,13 @@
     margin: 20px;
 
 }
+
+#main{
+    width:"100%";
+    margin: auto;
+}
+
+#container{
+    margin: auto;
+    width: 85%;
+}

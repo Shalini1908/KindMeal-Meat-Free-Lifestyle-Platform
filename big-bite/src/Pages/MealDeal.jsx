@@ -1,20 +1,18 @@
-import React from "react";
+import axios from "axios";
+import { useState , useEffect } from "react";
 
+const fetchdata=()=>{
 
-function MealDeal(){
-
-return (
-
-<>
-    <div>
+    return axios.get(`http://localhost:3000/item`);
+  }
+  
+     export default function MealDeal(){
+    const [data,setData]=useState([])
      
-    </div>
-    </>
+     useEffect(()=>{
+        fetchdata().then((res)=>setData(res.data))
+        
+      },[])
+      console.log(data)
 
-
-)
-
-
-}
-
-export default MealDeal;
+    }

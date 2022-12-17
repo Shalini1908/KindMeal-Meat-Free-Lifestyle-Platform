@@ -45,7 +45,7 @@ function Recipes() {
 
     <Box>
          <Card bg={"white"}   maxH={{ base: '100%', sm: '800vh' }}>
-            {/* <Image src={bannerrecipe} w={"90%"} ml={"60px"}></Image> */}
+      
             <Card bg={"#e9e9e9"} h={204}>
 <Flex><Heading textAlign={"left"} ml={75} mt={8} fontSize={20} color={"#333333"} fontWeight={500}>Food & Drinks  | </Heading>
 <Text color={'gray.600'} mt={"35px"} ml={2} >Yummy Meat-Free Recipes</Text></Flex>
@@ -89,7 +89,7 @@ function Recipes() {
                 boxShadow="xl"
                 borderRadius={8}
                 h={400}
-                // borderRadius={'20px'}
+          
                 >
                     <Wrap>
   <WrapItem>
@@ -105,24 +105,22 @@ function Recipes() {
                         <Image src={el.img} boxSize='xs' w="300px" h="290px" mt={1} mb={2}/>
                       </Flex>
                       <Flex justifyContent={"space-around"}>
-                      {/* <Image src="https://www.kindmeal.my/images/icon_heart_small.png" w={7} h={7} ml={5} mt={4}/> */}
+                   
                       <FaHeart color={"#f53838"} size={20} />
-                      {/* <Image src="https://www.kindmeal.my/images/icon_commentbubble_small.png" w={7} h={7} ml={220} mt={4}/> */}
+                   
                       <FaComment color={"gray"} size={20}/>
                       </Flex>
                     </GridItem>
                     <GridItem rowSpan={6}>
                       <Flex align={'center'} justify={'center'}>
                         <Link to={`/product/${el.id}`}>
-                          {/* <Text color={'red'} textAlign={'center'} mt={"-60px"} fontSize={15} noOfLines={2}>{el.title}</Text> */}
+                          
                         </Link>
                       </Flex>
                     </GridItem>
                     <GridItem rowSpan={6}>
                       <Flex align={'center'} justify={'center'}>
-                        {/* <Box>
-                          <Text textAlign={'center'}>food, substance consisting essentially of protein, carbohydrate, .....</Text>
-                        </Box> */}
+                      
                       </Flex>
                     </GridItem>
 
@@ -140,7 +138,7 @@ function Recipes() {
 
 
        </Container>
-       {/* <Card bg={'yellow.600'} w={"100%"} h={"500px"}></Card> */}
+
        </Card>
     </Box>
   )
