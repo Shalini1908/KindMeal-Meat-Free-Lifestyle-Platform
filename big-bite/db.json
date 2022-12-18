@@ -3,25 +3,25 @@
   "burger" : [
     {
       "id": 1,
-      "img":"https://www.kindmeal.my/photos/deal/6/696-5075-l.jpg",
+      "image":"https://www.kindmeal.my/photos/deal/6/696-5075-l.jpg",
       "category":"Burger",
       "title": "Fusion Gourmet Cuisine"
     },
     {
       "id": 2,
-      "img": "https://www.kindmeal.my/photos/deal/6/684-4446-l.jpg",
+      "image": "https://www.kindmeal.my/photos/deal/6/684-4446-l.jpg",
       "category":"Burger",
       "title": "Planet Based Culinary Experience"
     },
     {
       "id": 3,
-      "img": "https://www.kindmeal.my/photos/deal/7/710-4998-l.jpg",
+      "image": "https://www.kindmeal.my/photos/deal/7/710-4998-l.jpg",
       "category":"Burger",
       "title": "Tasty Waffles , Tarts & Farsan"
     },
     {
       "id": 4,
-      "img": "https://www.kindmeal.my/photos/deal/7/706-4801-l.jpg",
+      "image": "https://www.kindmeal.my/photos/deal/7/706-4801-l.jpg",
       "category":"Burger",
       "title": "Creative Burger and Snacks"
     }
@@ -31,25 +31,25 @@
   "Chinese" : [
     {
       "id": 1,
-      "img": "https://www.kindmeal.my/photos/deal/3/383-1189-l.jpg",
+      "image": "https://www.kindmeal.my/photos/deal/3/383-1189-l.jpg",
       "category":"Chinese",
       "title": "Dining Bowl Asian Delight"
     },
     {
       "id": 2,
-      "img": "https://www.kindmeal.my/photos/deal/7/728-5305-l.jpg",
+      "image": "https://www.kindmeal.my/photos/deal/7/728-5305-l.jpg",
       "category":"Chinese",
       "title": "Malaysian Favrorites & Ramen"
     },
     {
       "id": 3,
-      "img": "https://www.kindmeal.my/photos/deal/6/664-4296-l.jpg",
+      "image": "https://www.kindmeal.my/photos/deal/6/664-4296-l.jpg",
       "category":"Chinese",
       "title": "The Soul of Local Delights"
     },
     {
       "id": 4,
-      "img": "https://www.kindmeal.my/photos/deal/4/498-2202-l.jpg",
+      "image": "https://www.kindmeal.my/photos/deal/4/498-2202-l.jpg",
       "title": "Imperial Feast"
     }
   
@@ -58,27 +58,27 @@
 "Dicover_restaurants" : [
     {
       "id": 1,
-      "img": "https://www.kindmeal.my/photos/item/0/448-5264-s.jpg",
+      "image": "https://www.kindmeal.my/photos/item/0/448-5264-s.jpg",
       "title": "Garden of Eden"
     },
     {
       "id": 2,
-      "img": "https://www.kindmeal.my/photos/item/0/303-3241-s.jpg",
+      "image": "https://www.kindmeal.my/photos/item/0/303-3241-s.jpg",
       "title": "Dessert Set"
     },
     {
       "id": 3,
-      "img": "https://www.kindmeal.my/photos/item/0/521-6594-s.jpg",
+      "image": "https://www.kindmeal.my/photos/item/0/521-6594-s.jpg",
       "title": "Chicken Rice"
     },
     {
       "id": 4,
-      "img": "https://www.kindmeal.my/photos/item/0/429-4916-s.jpg",
+      "image": "https://www.kindmeal.my/photos/item/0/429-4916-s.jpg",
       "title": "Insalata Caprese (Caprese Salad)"
     },
     {
       "id": 5,
-      "img": "https://www.kindmeal.my/photos/item/0/601-8769-s.jpg",
+      "image": "https://www.kindmeal.my/photos/item/0/601-8769-s.jpg",
       "title": "Hakka Cha Nyuk Rice"
     }
   ],
@@ -86,25 +86,25 @@
   "Indians" : [
     {
       "id": 1,
-      "img": "https://www.kindmeal.my/photos/deal/6/605-3316-l.jpg",
+      "image": "https://www.kindmeal.my/photos/deal/6/605-3316-l.jpg",
       "category":"indian",
       "title": "Hyderababdi Indian Feast"
     },
     {
       "id": 2,
-      "img": "https://www.kindmeal.my/photos/deal/6/626-3611-l.jpg",
+      "image": "https://www.kindmeal.my/photos/deal/6/626-3611-l.jpg",
       "category":"indian",
       "title": "Melakan Indian Fusion Cuisine"
     },
     {
       "id": 3,
-      "img": "https://www.kindmeal.my/photos/member/14/14169-m.jpg",
+      "image": "https://www.kindmeal.my/photos/member/14/14169-m.jpg",
       "category":"indian",
       "title": "Chloe39"
     },
     {
       "id": 4,
-      "img": "https://www.kindmeal.my/photos/member/14/14338-m.jpg",
+      "image": "https://www.kindmeal.my/photos/member/14/14338-m.jpg",
       "category":"indian",
       "title": "好地方素食"
     }

@@ -59,30 +59,30 @@ export default function Nav() {
       </Box>
       <Box bg={useColorModeValue("#2bb673", "#2bb673")} px={4} mt={"46px"} >
        
-        <Flex h={12} alignItems={'center'} justifyContent={"space-around"}>
+        <Flex h={12} alignItems={'center'} justify="center">
          <RouterLink to={"./"}>
-          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={15} lineHeight={40}>HOME</Box>
+          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={16} lineHeight={40}>Home</Box>
           </RouterLink>
           <RouterLink to="../MealDeal">
-          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={15} lineHeight={40} cursor={"pointer"}>MEAL DEALS</Box>
+          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={16} lineHeight={40} cursor={"pointer"} m={8}>Meal Deals</Box>
           </RouterLink>
           <RouterLink to="../KindMoments">
-          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={15} lineHeight={40} cursor={"pointer"}>KIND MOMENTS</Box>
+          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={16} lineHeight={40} cursor={"pointer"}>Kind Moments</Box>
           </RouterLink>
           <RouterLink to="../Recipes">
-          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={15} lineHeight={40} cursor={"pointer"}>RECIPES</Box>
+          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={16} lineHeight={40} cursor={"pointer"} m={8}>Recipes</Box>
           </RouterLink>
           <RouterLink to="../Directory">
-          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={15} lineHeight={40} cursor={"pointer"}>DIRECTORY</Box>
+          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={16} lineHeight={40} cursor={"pointer"}>Directory</Box>
           </RouterLink>
           <RouterLink to="../Articles">
-          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={15} lineHeight={40} cursor={"pointer"}>ARTICLES</Box>
+          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={16} lineHeight={40} cursor={"pointer"} m={8}>Articles</Box>
           </RouterLink >
           {/* <RouterLink to="../MobileApp"> */}
-          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={15} lineHeight={40} cursor={"pointer"}>MOBILE APP</Box>
+          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={16} lineHeight={40} cursor={"pointer"}>Mobile App</Box>
           {/* </RouterLink> */}
           <RouterLink to="../Help">
-          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={15} lineHeight={40} cursor={"pointer"}>HELP</Box>
+          <Box  color={'white'} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontWeight={600} fontSize={16} lineHeight={40} cursor={"pointer"} m={8}>Help</Box>
           </RouterLink>
           <Flex alignItems={'center'}>
             <Stack direction={'row'} spacing={7}>
@@ -90,20 +90,20 @@ export default function Nav() {
                 {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
               </Button>
 
-              <Menu>
+              <Menu >
                 <MenuButton 
                   as={Button}
                   rounded={'full'}
                   variant={'link'}
                   cursor={'pointer'}
                   minW={0}>
-  
-                  <FaRegUser color='white'/>
+                 <FaRegUser color='white' />
+                
                 </MenuButton>
                 <MenuList alignItems={'center'}>
                   <br />
                   <Center>
-                  <FaRegUser color='black'/>
+                  <FaRegUser color='black' />
                   </Center>
                   <br />
                   <Center>
