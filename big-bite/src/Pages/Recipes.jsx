@@ -6,6 +6,7 @@ import { Link, useSearchParams } from 'react-router-dom';
 import { Avatar } from '@chakra-ui/react';
 import {FaHeart} from "react-icons/fa";
 import {FaComment} from "react-icons/fa";
+import {Link as RouterLink} from "react-router-dom"
 // import bannerrecipe from "../images/bannerrecipe.jpg";
 
 import Pagination from '../Components/Pagination';
@@ -42,7 +43,7 @@ function Recipes() {
   }, [page]);
   return (
 
-
+<>
     <Box>
          <Card bg={"white"}   maxH={{ base: '100%', sm: '800vh' }}>
       
@@ -56,12 +57,7 @@ function Recipes() {
 
 <Text textAlign={"left"} ml={75} mt={3} fontFamily={"Roboto, Arial, Helvetica, sans-serif;"} fontSize={15}>Transform into a master chef now.</Text>
       
-      <Flex ml={20}>
-      <Button bg={"#666666"} color={"white"} mt={5} width={"100px"} _hover={"#666666"}>Button</Button>
-      <Button bg={"#666666"} color={"white"} mt={5} ml={12} width={"100px"} _hover={"#666666"}>Button</Button>
-      <Button bg={"#666666"} color={"white"} mt={5} ml={12} width={"100px"} _hover={"#666666"}>Button</Button>
-      <Button bg={"#666666"} color={"white"} mt={5} ml={12} width={"100px"} _hover={"#666666"}>Button</Button>
-      </Flex>
+   
 </Card>
       <Box data-testid="pagination-container">
     {
@@ -101,8 +97,9 @@ function Recipes() {
                   <Grid templateRows={'repeat(12,1fr)'} h='lg'>
                     <GridItem rowSpan={10} >
                       <Flex align={'center'} justify={'center'}>
-              
+                      <RouterLink to="/singlerecipe">
                         <Image src={el.img} boxSize='xs' w="300px" h="290px" mt={1} mb={2}/>
+                        </RouterLink>
                       </Flex>
                       <Flex justifyContent={"space-around"}>
                    
@@ -141,6 +138,7 @@ function Recipes() {
 
        </Card>
     </Box>
+    </>
   )
 }
 
