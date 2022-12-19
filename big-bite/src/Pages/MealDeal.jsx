@@ -5,7 +5,8 @@ import how_kindmeal_works from "../images/how_kindmeal_works.png"
 import icon_alcohol from "../images/icon_alcohol.png"
 import icon_star from "../images/icon_star.png"
 import icon_milk from "../images/icon_milk.png"
-import icon_egg from "../images/icon_egg.png"
+import icon_egg from "../images/icon_egg.png";
+import {Link as RouterLink} from "react-router-dom";
 
 
 export default function MealDeal() {
@@ -94,8 +95,10 @@ export default function MealDeal() {
 
 
             </Card>
-            <Card width={"80%"} style={{ margin: "auto" }} >
+            <Card width={"80%"} style={{ margin: "auto" , marginTop:"15px"}} >
+                <RouterLink to="/recipes">
                 <Image src={bannerrecipe} width="100%" />
+                </RouterLink>
             </Card>
 
             <Container marginLeft={90} bg={"#f9f9f9"}>
@@ -108,7 +111,7 @@ export default function MealDeal() {
 
                             <Text mt={2}>{e.desc}</Text>
                             <Flex>
-                                <Button bg={"#f53838"} color={"white"} width={"200px"} height="50px" mt={2}>Get free Coupon</Button>
+                                <Button bg={"#f53838"} color={"white"} _hover ={"#f53838"} width={"200px"} height="50px" mt={2}>Get free Coupon</Button>
                                 <Flex ml={215} mt={3}>
                                     <Image src={icon_star} w={"30px"} h={"30px"} />
                                     <Image src={icon_star} w={"30px"} h={"30px"} />
@@ -138,7 +141,7 @@ export default function MealDeal() {
                             <Heading textAlign={"center"} fontSize={17} mt={2}><p>{e.title}</p></Heading>
                             <Text textAlign={"left"} mt={2}>{e.desc}</Text>
                             <Flex>
-                                <Button bg={"#f53838"} color={"white"} width={"200px"} height="50px" mt={2}>Get free Coupon</Button>
+                                <Button bg={"#f53838"} color={"white"} width={"200px"} _hover ={"#f53838"} height="50px" mt={2}>Get free Coupon</Button>
                                 <Flex ml={215} mt={3}>
                                     <Image src={icon_star} w={"30px"} h={"30px"} />
                                     <Image src={icon_star} w={"30px"} h={"30px"} />

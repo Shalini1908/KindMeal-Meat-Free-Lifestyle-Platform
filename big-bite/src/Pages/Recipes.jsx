@@ -41,7 +41,7 @@ function Recipes() {
   useEffect(() => {
     setSearchParams({page});
     fetching(page);
-  }, [page , searchParams]);
+  }, [page , setSearchParams]);
   return (
 
 <>
