@@ -30,6 +30,7 @@ function Recipes() {
   const fetching = async (page) => {
     try {
       const res = await fetch(`https://umang-food-api.onrender.com/api/Food?_page=${page}&_limit=6`);
+   
       const data12 = await res.json();
       setData(data12);
     } catch (error) {}
@@ -40,7 +41,7 @@ function Recipes() {
   useEffect(() => {
     setSearchParams({page});
     fetching(page);
-  }, [page]);
+  }, [page , searchParams]);
   return (
 
 <>

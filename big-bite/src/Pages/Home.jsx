@@ -121,7 +121,7 @@ mt={20}
     borderRadius={10}
     marginInline={1}
 
-    src='https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/313572633_1222446185289163_301818545381834372_n.jpg?stp=dst-jpg_s720x720&_nc_cat=1&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=YQIGmo8tlTkAX9uSzj1&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AfA6XgzblFUG7jAAwGTuZDmnoPfYg8s9qv2bd-r8mxmNew&oe=639F9B35'
+    src='https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg'
     alt='Caffe Latte'
   />
 <Text noOfLines={2}  color={"#8d8d8d"} fontSize={14}  >Wild Turkeys Go Nuts About Guy On Motorcycle!</Text>
@@ -135,7 +135,7 @@ mt={20}
     style={{width:"100%" , height:"200px"}}
     marginInline={1}
  
-    src='https://scontent-xsp1-1.xx.fbcdn.net/v/t15.5256-10/317917398_835831947653314_7294252524021926878_n.jpg?stp=dst-jpg_s720x720&_nc_cat=105&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=hsHMEsxpCYYAX8jh38A&_nc_ht=scontent-xsp1-1.xx&edm=ALdPpPkEAAAA&oh=00_AfDj8ifvYXuxX3V2k36OjBd0o-FCQ7mpsuuMjHsEcxMQhQ&oe=639DE0B0'
+    src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGnFCJGjOpet_oYX06DnhJZPP5mYldJEuTqu1O4x0qbzQPVb1r340xfKtRgMoLkDMTiZ0&usqp=CAU'
     alt='Caffe Latte'
   />
   <Text noOfLines={2}  color={"#8d8d8d"} fontSize={14}  >Sick Baby Cow Headbutts His Bffs All Day Now</Text>
@@ -149,7 +149,7 @@ mt={20}
     borderRadius={10}
     marginInline={1}
     
-    src='https://scontent-xsp1-1.xx.fbcdn.net/v/t15.5256-10/318915884_561186642153164_127441678623272126_n.jpg?stp=dst-jpg_s720x720&_nc_cat=103&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=eQegN0-Nn9AAX9jGU4_&_nc_ht=scontent-xsp1-1.xx&edm=ALdPpPkEAAAA&oh=00_AfDPNDh9vtFB3mvO-u8Wcf-Bv6PZrBsAYQ6xFR8wa4rnpA&oe=639F271C'
+    src='https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg'
     alt='Caffe Latte'
   />
   <Text  color={"#8d8d8d"} fontSize={14}  >The Best Air Fryer Recipe</Text>
@@ -163,7 +163,7 @@ mt={20}
     borderRadius={10}
     marginInline={1}
  
-    src='https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/283214530_476021257630109_5388539080951558766_n.jpg?stp=dst-jpg_p720x720&_nc_cat=104&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=_cs7zbisYbwAX9On0jy&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AfA7W2uJsXdlGbtAWc43fqUfoVkqFXH6GdHqW0JRilnIgg&oe=639E8B0B'
+    src='https://images.pexels.com/photos/51311/cow-calf-cattle-stock-51311.jpeg?cs=srgb&dl=pexels-pixabay-51311.jpg&fm=jpg'
     alt='Caffe Latte'
   />
   <Text noOfLines={2}  color={"#8d8d8d"} fontSize={14}  >Sea Turtle Stuck In Plastic Gets Help At Just The Right Time</Text>
@@ -178,7 +178,7 @@ mt={20}
     marginInline={1}
 
   
-    src='https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/317151508_2973337439627415_2451805833777691388_n.jpg?stp=dst-jpg_s720x720&_nc_cat=106&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=-hXLRvmz8CEAX9NFJuy&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AfAiPFi9F3h2s6sbwrB5cMJ6X_65PX7RAB9GmAXO6oqsSw&oe=639EAF39'
+    src='https://cdn.mos.cms.futurecdn.net/BX7vjSt8KMtcBHyisvcSPK.jpg'
     alt='Caffe Latte'
   />
 

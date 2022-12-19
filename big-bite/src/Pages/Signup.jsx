@@ -23,11 +23,13 @@ import {
   import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons';
   import join_shop from "../images/join_shop.png";
   import join_normal from "../images/join_normal.png";
-  import {Link as RouterLink} from "react-router-dom"
+  import {Link as RouterLink} from "react-router-dom";
+
   
   export default function SignupCard() {
     const [showPassword, setShowPassword] = useState(false);
-  
+
+
     return (
   <>
     {/* <Grid>
@@ -164,3 +166,5 @@ import {
       </>
     );
   }
+
+

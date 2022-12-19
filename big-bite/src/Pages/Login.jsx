@@ -96,3 +96,5 @@ Sign Up Successful</Heading>
     </>
   );
 }
+
+
