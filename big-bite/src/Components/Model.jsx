@@ -44,9 +44,12 @@ export default function BasicUsage() {
              <Text ml={43} color={"#746d66"}>Please select the type of membership to proceed</Text>
 
              <Flex>
+         
              <Card 
                direction={{ base: 'column', sm: 'row' }} overflow='hidden' variant='outline' w={440} mt={5}> 
+             
              <Image src={join_normal} width={120} h={120} mt={17} ml={"10px"}/>
+           
             <Stack>
             <CardBody>
               <Container w={300}>
@@ -56,6 +59,7 @@ export default function BasicUsage() {
             </CardBody>
             </Stack>    
             </Card>
+     
          </Flex>
 
      

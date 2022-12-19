@@ -66,8 +66,8 @@ justify={'center'}
 </Card>
 </div>
 
-<Stack spacing={8}  maxW={'lg'} py={12} px={6} mr={"300px"} >
-  <Flex>
+<Stack spacing={8}  maxW={'lg'} py={12} px={6} mr={"300px"} mt={"-340px"}>
+  <Flex >
     
   <Image src={icon_tick} w={20} h={20} />
   <Heading mt={"20px"} ml={5} color={"#666666"} fontWeight={500}>

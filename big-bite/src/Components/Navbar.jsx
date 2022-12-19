@@ -90,7 +90,7 @@ export default function Nav() {
                 {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
               </Button>
 
-              <Menu >
+              <Menu>
                 <MenuButton 
                   as={Button}
                   rounded={'full'}
@@ -100,20 +100,22 @@ export default function Nav() {
                  <FaRegUser color='white' />
                 
                 </MenuButton>
-                <MenuList alignItems={'center'}>
+                <MenuList alignItems={'center'} bg={"blue.200"} >
                   <br />
                   <Center>
                   <FaRegUser color='black' />
                   </Center>
                   <br />
-                  <Center>
+                  <Center >
                     <p>Username</p>
                   </Center>
                   <br />
                   <MenuDivider />
-                  <MenuItem>Admin</MenuItem>
-                  <MenuItem>Account Settings</MenuItem>
-                  <MenuItem>Logout</MenuItem>
+                  <MenuItem bg={"blue.200"}>Admin</MenuItem>
+                  <MenuItem bg={"blue.200"}>Account Settings</MenuItem>
+                  <RouterLink to="/">
+                  <MenuItem bg={"blue.200"}>Logout</MenuItem>
+                  </RouterLink>
                 </MenuList>
               </Menu>
             </Stack>
